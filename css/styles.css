@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    padding: 2em 2em 2em 6.1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+body {
+    background: url('fondo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo {
+    font-size: 2rem;
+    color: #ffffff;
+    cursor: default;
+    margin-bottom: 1vw;
+}
+
+.logo span {
+    color: #18b7f7;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.navigation a {
+    font-size: 1rem;
+    color: #ffffff;
+    text-decoration: none;
+    margin-right: 2vw;
+    font-weight: 500;
+    transition: .3s;
+    margin-bottom: 1vw;
+}
+
+.navigation a:hover {
+    color: #18b7f7;
+    transform: translateY(+3px);
+}
+
+.btn-talk {
+    color: #fff;
+    text-decoration: none;
+    padding: 1vw 3vw;
+    background: #18b7f7;
+    border-radius: 1vw;
+    border: 0.2vw solid #18b7f7;
+    font-weight: 500;
+    transition: .3s;
+    font-size: 1rem;
+}
+
+.btn-talk:hover {
+    color: #18b7f7;
+    background: transparent;
+}
+
+.home {
+    position: relative;
+    width: 100%;
+    padding: 0em 2em 0em 6.1em;
+}
+
+.content {
+    color: #ffffff;
+}
+
+.content h2 {
+    font-size: 3em;
+}
+
+.content h2 span {
+    color: #18b7f7;
+}
+
+.content h4 {
+    font-size: 2em;
+}
+
+.content p {
+    padding: 0em 0em 2.5% 0em;
+}
+
+.btn-group a {
+    color: #18b7f7;
+    text-decoration: none;
+    padding: 10px 40px;
+    background: transparent;
+    border-radius: 10px;
+    border: 2px solid #18b7f7;
+    font-weight: 500;
+    transition: .3s;
+}
+
+.btn-group a:hover {
+    color: #ffffff;
+    background: #18b7f7;
+}
+
+.btn-group a:nth-child(2) {
+    margin-left: 30px;
+    padding: 10px 30px;
+}
+
+.social-icons {
+    position: absolute;
+    bottom: -100px;
+}
+
+.social-icons a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    background: #18b7f7;
+    border-radius: 50%;
+    margin-right: 22px;
+    text-align: center;
+    line-height: 35px;
+    border: 1px solid #fff;
+    outline: 2px solid #18b7f7;
+    transition: .3s;
+}
+
+.social-icons a:hover {
+    transform: translateY(-5px);
+}
+
+.social-icons a i {
+    color: #ffffff;
+}

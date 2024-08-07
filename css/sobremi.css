@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+
+header {
+    padding: 2em 2em 2em 6.1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+body {
+    background: url('fondo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo {
+    font-size: 2rem;
+    color: #ffffff;
+    cursor: default;
+    margin-bottom: 1vw;
+}
+
+.logo span {
+    color: #18b7f7;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.navigation a {
+    font-size: 1rem;
+    color: #ffffff;
+    text-decoration: none;
+    margin-right: 2vw;
+    font-weight: 500;
+    transition: .3s;
+    margin-bottom: 1vw;
+}
+
+.navigation a:hover {
+    color: #18b7f7;
+    transform: translateY(+3px);
+}
+
+.btn-talk {
+    color: #fff;
+    text-decoration: none;
+    padding: 1vw 3vw;
+    background: #18b7f7;
+    border-radius: 1vw;
+    border: 0.2vw solid #18b7f7;
+    font-weight: 500;
+    transition: .3s;
+    font-size: 1rem;
+}
+
+.btn-talk:hover {
+    color: #18b7f7;
+    background: transparent;
+}
+
+.home {
+    position: relative;
+    width: 100%;
+}
+
+.content {
+    display: flex;
+    color: #ffffff;
+    gap: 5%;
+    justify-content: center;
+}
+
+.sm {
+    flex-basis: 40%;
+    margin-bottom: 5vh;
+    margin-left: 20px;
+}
+
+.sm a{
+    color: #18b7f7;
+    font-weight: 500;
+}
+
+.hb {
+    flex-basis: 40%;
+    margin-right: 20px;
+}
+
+.content h2 {
+    font-size: 2rem;
+}
+
+.content h4 {
+    font-size: 2rem;
+}
+
+.btn-group {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.btn-group a {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #18b7f7;
+    text-decoration: none;
+    padding: 5vw 4vw;
+    margin-right: 3vw;
+    margin-bottom: 2vw;
+    background: transparent;
+    border-radius: 1vw;
+    border: 0.2vw solid #18b7f7;
+}
+
+.btn-group a:hover {
+    color: #ffffff;
+    background: #18b7f7;
+}
+
+hr {
+    border: 3px solid #ffffff;
+    border-radius: 5px;
+    opacity: 0.5;
+}
